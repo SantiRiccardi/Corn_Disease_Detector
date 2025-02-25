@@ -24,6 +24,9 @@ Por lo tanto, el desarrollo de un sistema de clasificación para detectar enferm
 * ***Recall*** : 93%
 <img src='app/images/modelos.png' width=750 height=400>
 
+### Matriz de Confusion
+### Grafico datos x clase
+
 ### 🎯 Resultados
 ✅ Rendimiento general: El modelo muestra un buen desempeño con alta precisión en la mayoría de las clases.<br>
 ✅ ***Common Rust*** y ***Healthy*** están bien clasificadas.<br>
