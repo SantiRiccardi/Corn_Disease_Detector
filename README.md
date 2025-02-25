@@ -18,34 +18,49 @@ Por lo tanto, el desarrollo de un sistema de clasificación para detectar enferm
 
 
 
+## **Resultados y Métricas**
+
+### 📊 Métricas
+#### Modelo ***MobileNet***:<br>
+* ***Accuracy*** : 93%
+* ***Precision*** : 93%
+* ***Recall*** : 93%
+<img src='/Users/santi/Corn_Disease_Detector/app/images/modelos.png' width=400 height=500>
+
+
+
+### 🎯 Resultados
+✅ Rendimiento general: El modelo muestra un buen desempeño con alta precisión en la mayoría de las clases.
+✅ ***Common Rust*** y ***Healthy*** están bien clasificadas.
+✅ El modelo clasifica correctamente los ***cultivos sanos el 100%*** de las veces.
+✅ El modelo clasifica correctamente los ***cultivos enfermos el 90.16%*** de las veces.
+✅ El modelo ***distingue entre sano y enfermo con un 92.89%*** de precisión.
 
 
 
 
 
+## **¿Por que usar IA para detectar enfermedades en cultivos de Maiz?**
 
+El uso de Inteligencia Artificial (IA) en la detección de enfermedades en cultivos de maíz representa\
+un avance significativo en la agricultura de precisión, permitiendo a los productores mejorar la salud\
+de sus cultivos y optimizar la toma de decisiones.
 
-## ¿Por que usar IA para detectar enfermedades en cultivos de Maiz? ##
-st.markdown("## **¿Por que usar IA para detectar enfermedades en cultivos de Maiz?**")
+🔍 **Detección temprana y precisa**: Los modelos de IA, como redes neuronales convolucionales (CNN),\
+pueden identificar patrones sutiles en imágenes de hojas que serían difíciles de detectar a simple vista,\
+permitiendo un diagnóstico oportuno.
 
-st.write("El uso de Inteligencia Artificial (IA) en la detección de enfermedades en cultivos de maíz representa\
-         un avance significativo en la agricultura de precisión, permitiendo a los productores mejorar la salud\
-        de sus cultivos y optimizar la toma de decisiones.")
+🚀 **Eficiencia y rapidez**: La automatización del proceso de detección reduce el tiempo y los recursos necesarios\
+para inspeccionar los cultivos manualmente, optimizando el trabajo del productor.
 
-st.write("🔍 **Detección temprana y precisa**: Los modelos de IA, como redes neuronales convolucionales (CNN),\
-        pueden identificar patrones sutiles en imágenes de hojas que serían difíciles de detectar a simple vista,\
-        permitiendo un diagnóstico oportuno.")
+📈 **Reducción de pérdidas económicas**: Al identificar enfermedades en una etapa temprana,\
+los agricultores pueden tomar medidas preventivas y minimizar pérdidas en la producción.
 
-st.write("🚀 **Eficiencia y rapidez**: La automatización del proceso de detección reduce el tiempo y los recursos necesarios para inspeccionar los cultivos manualmente, optimizando el trabajo del productor.")
+🌍 **Agricultura sostenible**: Un diagnóstico más preciso permite aplicar tratamientos específicos,\
+reduciendo el uso innecesario de pesticidas y promoviendo prácticas más sostenibles.
 
-st.write("📈 **Reducción de pérdidas económicas**: Al identificar enfermedades en una etapa temprana,\
-             los agricultores pueden tomar medidas preventivas y minimizar pérdidas en la producción.")
+📡 **Accesibilidad y escalabilidad**: Con modelos implementados en aplicaciones móviles o plataformas web,\
+cualquier productor puede obtener un diagnóstico instantáneo con solo una imagen, sin necesidad de equipos costosos.
 
-st.write("🌍 **Agricultura sostenible**: Un diagnóstico más preciso permite aplicar tratamientos específicos,\
-         reduciendo el uso innecesario de pesticidas y promoviendo prácticas más sostenibles.")
-
-st.write("📡 **Accesibilidad y escalabilidad**: Con modelos implementados en aplicaciones móviles o plataformas web, \
-         cualquier productor puede obtener un diagnóstico instantáneo con solo una imagen, sin necesidad de equipos costosos.")
-
-st.write("La IA no solo mejora la productividad, sino que también transforma la agricultura en una práctica más eficiente,\
-            sostenible y accesible. 🚜🌱")
+La IA no solo mejora la productividad, sino que también transforma la agricultura en una práctica más eficiente,\
+sostenible y accesible. 🚜🌱
