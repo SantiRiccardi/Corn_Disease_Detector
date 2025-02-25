@@ -58,7 +58,7 @@ st.markdown("## **Resultados y Métricas**")
 st.subheader("📊 Métricas")
 st.markdown("##### Modelo ***MobileNet***: ")
 st.write("* ***Accuracy*** : 93%\n* ***Precision*** : 0.93\n* ***Recall*** : 0.93")
-st.image('/Users/santi/Corn_Disease_Detector/app/images/modelos.png')
+st.image('app/images/modelos.png')
 
 
 
@@ -105,7 +105,7 @@ st.write("La IA no solo mejora la productividad, sino que también transforma la
 st.markdown("## **Nuestro equipo**")
 
 # Foto de perfil
-st.image("/Users/santi/Corn_Disease_Detector/app/images/Linkedin.jpg", width=550, use_column_width=False)
+st.image("app/images/Linkedin.jpg", width=550, use_column_width=False)
 
 # Nombre y profesión centrados
 st.markdown(
