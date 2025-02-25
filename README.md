@@ -12,7 +12,7 @@ En este contexto, el uso de herramientas tecnológicas avanzadas, como la inteli
 
 Por lo tanto, el desarrollo de un sistema de clasificación para detectar enfermedades en cultivos de maíz no solo tiene el potencial de mejorar el manejo agrícola en Argentina, sino que también contribuye al fortalecimiento de la seguridad alimentaria y la sostenibilidad económica del sector. Este proyecto busca ser un aporte en ese sentido, integrando tecnología de vanguardia para resolver un problema crítico en la agricultura moderna.
 
-<img src="/Users/santi/Corn_Disease_Detector/src/utils/images/maiz1.jpg" width=800 height=500>
+<img src="https://github.com/SantiRiccardi/Corn_Disease_Detector/blob/main/src/utils/images/maiz1.jpg" width=800 height=500>
 
 
 
