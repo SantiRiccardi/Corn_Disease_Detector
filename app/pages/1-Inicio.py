@@ -40,7 +40,7 @@ enfermedades = {
                                                "El hongo sobrevive en regiones cálidas y se dispersa a largas distancias con el viento."]
     },
     "Mancha Gris de la Hoja (Gray Leaf Spot)": {
-        "imagen": "/Users/santi/Corn_Disease_Detector/app/images/Corn_Gray_Spot (8).jpg",
+        "imagen": "app/images/Corn_Gray_Spot (8).jpg",
         "Sintomas": "Aparición de manchas rectangulares de color gris a marrón en las hojas, con bordes definidos.\
                      Las lesiones pueden expandirse y unirse, causando necrosis en grandes áreas de la hoja.\
                      Reducción en la fotosíntesis, afectando el desarrollo del grano y disminuyendo el rendimiento.\
