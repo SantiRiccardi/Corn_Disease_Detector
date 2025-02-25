@@ -51,7 +51,7 @@ enfermedades = {
                                                "Ambientes con baja circulación de aire (por alta densidad de siembra) favorecen la infección."]
     },
     "Tizón del Maíz (Blight)": {
-        "imagen": "/Users/santi/Corn_Disease_Detector/app/images/Corn_Blight (21).jpg",
+        "imagen": "app/images/Corn_Blight (21).jpg",
         "Sintomas": "Se manifiesta como manchas necróticas alargadas en las hojas, que pueden unirse y causar una necrosis extensa.\
                     Pueden aparecer lesiones acuosas al principio, que luego se tornan marrones o grises con bordes oscuros.\
                     En infecciones avanzadas, el tejido afectado puede morir, reduciendo la capacidad fotosintética de la planta.\
