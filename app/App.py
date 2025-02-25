@@ -53,7 +53,7 @@ st.markdown("<h1 style='text-align: center;'>Bienvenido a <b>AgroDisease Detecto
 
 #st.title("Bienvenido a ***AgroDisease Detector🌽***")
 st.write("Esta aplicación te ayuda a identificar enfermedades comunes en cultivos de maíz a partir de imágenes.")
-st.image('/Users/santi/Corn_Disease_Detector/app/images/maiz1.jpg')
+st.image('app/images/maiz1.jpg')
 
 st.markdown("## **¿Cómo funciona?**")
 st.markdown("##### **1°) Carga una imagen de una hoja de maiz**")
