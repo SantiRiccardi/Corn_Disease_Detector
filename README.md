@@ -15,9 +15,6 @@ Por lo tanto, el desarrollo de un sistema de clasificación para detectar enferm
 <img src="https://github.com/SantiRiccardi/Corn_Disease_Detector/blob/main/src/utils/images/maiz1.jpg" width=800 height=500>
 
 
-
-
-
 ## **Resultados y Métricas**
 
 ### 📊 Métricas
@@ -27,17 +24,12 @@ Por lo tanto, el desarrollo de un sistema de clasificación para detectar enferm
 * ***Recall*** : 93%
 <img src='app/images/modelos.png' width=750 height=400>
 
-
-
 ### 🎯 Resultados
 ✅ Rendimiento general: El modelo muestra un buen desempeño con alta precisión en la mayoría de las clases.<br>
 ✅ ***Common Rust*** y ***Healthy*** están bien clasificadas.<br>
 ✅ El modelo clasifica correctamente los ***cultivos sanos el 100%*** de las veces.<br>
 ✅ El modelo clasifica correctamente los ***cultivos enfermos el 90.16%*** de las veces.<br>
 ✅ El modelo ***distingue entre sano y enfermo con un 92.89%*** de precisión.
-
-
-
 
 
 ## **¿Por que usar IA para detectar enfermedades en cultivos de Maiz?**
@@ -64,3 +56,6 @@ cualquier productor puede obtener un diagnóstico instantáneo con solo una imag
 
 La IA no solo mejora la productividad, sino que también transforma la agricultura en una práctica más eficiente,\
 sostenible y accesible. 🚜🌱
+
+## App 
+Accede y utiliza de manera gratuita nuestra app en Streamlit [***AgroDisease Detector🌽***]()
