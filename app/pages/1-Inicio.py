@@ -29,7 +29,7 @@ st.markdown("* **Saludable (Healthy)**")
 # Opciones de enfermedades con síntomas y condiciones
 enfermedades = {
     "Roya Común (Common Rust)": {
-        "imagen": "/Users/santi/Corn_Disease_Detector/app/images/Corn_Common_Rust (48).jpg",
+        "imagen": "app/images/Corn_Common_Rust (48).jpg",
         "Sintomas": "Pústulas de color marrón rojizo a anaranjado en ambas caras de la hoja, inicialmente pequeñas y dispersas.\
                      Con el tiempo, las pústulas se oscurecen y se tornan negras a medida que la enfermedad avanza.\
                      Puede causar un debilitamiento general de la planta, reducción en la fotosíntesis y menor desarrollo de las mazorcas.\
