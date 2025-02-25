@@ -60,7 +60,6 @@ st.markdown("##### **1°) Carga una imagen de una hoja de maiz**")
 st.markdown("##### **2°)** Obtendras un Diagnóstico de tu cultivo")
 st.write("Nuestra app te ofrecerá un diagnóstico detallado del estado del cultivo y el tipo de tratamiento si el mismo contiene alguna de las siguientes enfermedades o si se encuentra sano:")
 with st.expander('Enfermedades que diagnostica nuestro Modelo'):
-    st.write('El modelo predecie con altos niveles de precisión entre cuatro categorías:')
     st.write('1. **Roya Común (Common Rust)**')
     st.write('2. **Mancha Gris de la Hoja (Gray Leaf Spot)**')
     st.write('3. **Tizón del Maíz (Blight)**')
