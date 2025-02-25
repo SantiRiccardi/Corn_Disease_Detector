@@ -58,4 +58,4 @@ La IA no solo mejora la productividad, sino que también transforma la agricultu
 sostenible y accesible. 🚜🌱
 
 ## App 
-Accede y utiliza de manera gratuita nuestra app en Streamlit [***AgroDisease Detector🌽***]()
+Accede y utiliza de manera gratuita nuestra app en Streamlit [***AgroDisease Detector🌽***]("https://santiriccardi-corn-disease-detector-appapp-y2eo9o.streamlit.app/")
