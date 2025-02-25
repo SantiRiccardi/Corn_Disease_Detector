@@ -61,7 +61,7 @@ enfermedades = {
                                                "La presencia de restos de cultivos infectados en el suelo facilita la propagación en temporadas siguientes."]
     },
     "Saludable (Healthy)": {
-        "imagen": "/Users/santi/Corn_Disease_Detector/app/images/Corn_Health (1).jpg",
+        "imagen": "app/images/Corn_Health (1).jpg",
         "Sintomas": "Las plantas saludables tienen hojas de color verde uniforme, sin lesiones, necrosis ni signos visibles de enfermedad.",
         "Condiciones ambientales favorables": ["Crecimiento óptimo con adecuada nutrición, agua y control de plagas y enfermedades."]
     }
