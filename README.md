@@ -25,15 +25,15 @@ Por lo tanto, el desarrollo de un sistema de clasificación para detectar enferm
 * ***Accuracy*** : 93%
 * ***Precision*** : 93%
 * ***Recall*** : 93%
-<img src='/Users/santi/Corn_Disease_Detector/app/images/modelos.png' width=400 height=500>
+<img src='app/images/modelos.png' width=750 height=400>
 
 
 
 ### 🎯 Resultados
-✅ Rendimiento general: El modelo muestra un buen desempeño con alta precisión en la mayoría de las clases.
-✅ ***Common Rust*** y ***Healthy*** están bien clasificadas.
-✅ El modelo clasifica correctamente los ***cultivos sanos el 100%*** de las veces.
-✅ El modelo clasifica correctamente los ***cultivos enfermos el 90.16%*** de las veces.
+✅ Rendimiento general: El modelo muestra un buen desempeño con alta precisión en la mayoría de las clases.<br>
+✅ ***Common Rust*** y ***Healthy*** están bien clasificadas.<br>
+✅ El modelo clasifica correctamente los ***cultivos sanos el 100%*** de las veces.<br>
+✅ El modelo clasifica correctamente los ***cultivos enfermos el 90.16%*** de las veces.<br>
 ✅ El modelo ***distingue entre sano y enfermo con un 92.89%*** de precisión.
 
 
