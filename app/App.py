@@ -89,7 +89,7 @@ if uploaded_file is not None:
     imagen_procesada = preprocesamiento(uploaded_file, img_width=224, img_height=224)
 
     # Carga del Modelo
-    model = tf.keras.models.load_model("/Users/santi/The-Bridge-Data-Science/APP MAIZ/model/model_v1_MobileNet.keras")
+    model = tf.keras.models.load_model("app/model/model_v1_MobileNet.keras")
 
     # Prediccíon y probabilidades
     clase_predicha, probabilidad = prediccion_y_probabilidad(imagen_procesada, model)
