@@ -17,22 +17,37 @@ Por lo tanto, el desarrollo de un sistema de clasificación para detectar enferm
 
 ## **Resultados y Métricas**
 
+### Distribución por Clase
+<img src="app/images/distribucion_x_clase.png" width=600 height=325>
+
+Observamos que nuestro dataset está ***desbalanceado***, contamos con un tamaño muestral minoritario para la clase `Gray_Leaf_Spot`. Esta problemática se ve reflejada en el Recall y Precision, dónde dichas métricas son las mas bajas para ésta categoría.
+
+
 ### 📊 Métricas
-#### Modelo ***MobileNet***:<br>
+<img src='app/images/modelos.png' width=725 height=400>
+
+Como el objetivo de este proyecto es obtener un modelo robusto y bien equilibrado para el uso en producción, **MobileNet** es la mejor opción,
+ya que su desempeño más alto en validación sugiere que está menos propenso a sobreajuste (overfitting) y es más estable.
+
+MobileNet tiene mejor desempeño en validación, con un +2% en Accuracy, Precision y Recall respecto a MobileNetV2.
+
+Modelo ***MobileNet***:<br>
 * ***Accuracy*** : 93%
 * ***Precision*** : 93%
 * ***Recall*** : 93%
-<img src='app/images/modelos.png' width=750 height=400>
 
 ### Matriz de Confusion
-### Grafico datos x clase
+<img src="app/images/matriz_confusion.png" width=600 height=450>
 
 ### 🎯 Resultados
-✅ Rendimiento general: El modelo muestra un buen desempeño con alta precisión en la mayoría de las clases.<br>
-✅ ***Common Rust*** y ***Healthy*** están bien clasificadas.<br>
-✅ El modelo clasifica correctamente los ***cultivos sanos el 100%*** de las veces.<br>
-✅ El modelo clasifica correctamente los ***cultivos enfermos el 90.16%*** de las veces.<br>
-✅ El modelo ***distingue entre sano y enfermo con un 92.89%*** de precisión.
+
+* Rendimiento general: El modelo muestra un buen desempeño con alta precisión en la mayoría de las clases.<br>
+* ***Common Rust*** y ***Healthy*** están bien clasificadas.<br>
+* El modelo clasifica correctamente los ***cultivos sanos el 100%*** de las veces.<br>
+* El modelo clasifica correctamente los ***cultivos enfermos el 90.16%*** de las veces.<br>
+* El modelo ***distingue entre sano y enfermo con un 92.89%*** de precisión.
+
+Incrementando el tamaño muestral para la clase minoritaría `Gray_Leaf_Spot` aumentaría el rendimiento del modelo, disminuyendo el error en las predicciones de dicha categoría.
 
 
 ## **¿Por que usar IA para detectar enfermedades en cultivos de Maiz?**
